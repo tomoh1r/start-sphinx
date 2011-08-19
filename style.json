@@ -1,0 +1,35 @@
+{
+    "embeddedFonts" :
+    ["ttf-japanese-gothic", "ttf-japanese-mincho"],
+    "pageSetup" : {
+        "size"   : null,
+        "width"  : "32cm",
+        "height" : "24cm" 
+    },
+    "pageTemplates" : {
+        "oneColumn" : {
+            "frames" : [
+                ["0cm", "0cm", "100%", "100%"]
+            ], 
+            "showHeader" : false,
+            "showFooter" : false
+        }
+    },
+    "fontsAlias" : {
+        "stdFont": "IPAX0208PGothic",
+        "stdBold": "IPAX0208PGothic-Bold",
+        "stdBoldItalic": "IPAX0208PGothic-BoldItalic",
+        "stdItalic": "IPAX0208PGothic-Italic",
+        "stdMono": "IPAX0208Gothic"
+    },
+    "styles" : [
+        ["base" , {
+            "fontSize": 28,
+            "wordWrap": "CJK"
+        }],
+        ["literal" , {
+            "fontSize": 28,
+            "wordWrap": "CJK"
+        }]
+    ]
+}
